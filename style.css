@@ -7,3 +7,9 @@
 .pop {
     text-align: left;
 }
+.zarovnat{
+    margin: auto; 
+display: flex;  
+justify-content: center; /* for horizontal */
+align-items: center; /* for vertical */
+}
