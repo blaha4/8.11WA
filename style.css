@@ -1,6 +1,6 @@
 .zmen {
-    height: 300px;
-    width: 600px;
+    height: 50%;
+    width: 50%;
 
 }
 
@@ -10,6 +10,6 @@
 .zarovnat{
     margin: auto; 
 display: flex;  
-justify-content: center; /* for horizontal */
-align-items: center; /* for vertical */
+justify-content: center;
+align-items: center; 
 }
