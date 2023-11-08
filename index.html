@@ -20,6 +20,14 @@
            Petr Novák<cite title="Source Title"> v Blázinci</cite>
         </figcaption>
       </figure>
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Launch static backdrop modal
+  </button>
+  <p></p>
+  
+  
+
       <p><img src="https://th.bing.com/th/id/OIP.JuEjW4F3gyvZWMuUnReP8gHaEK?w=284&h=180&c=7&r=0&o=5&pid=1.7" alt="Veverka"></p>
       
       
@@ -27,15 +35,12 @@
 
       <p class="d-inline-flex gap-1">
         <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-          Link with href
+          Nase lokace
         </a>
-        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-          Button with data-bs-target
-        </button>
       </p>
       <div class="collapse" id="collapseExample">
         <div class="card card-body">
-          Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+          Sike myslel sis
         </div>
       </div>
 
@@ -45,10 +50,12 @@
         <li class="list-group-item">An item</li>
         <li class="list-group-item">A second item</li>
         <li class="list-group-item">A third item</li>
-      
       </ul>
 
-      <div id="carouselExampleIndicators" class="carousel slide">
+
+
+      
+      <div id="carouselExampleIndicators" class="carousel slide zmen">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -56,13 +63,13 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="https://th.bing.com/th/id/OIP.JuEjW4F3gyvZWMuUnReP8gHaEK?w=284&h=180&c=7&r=0&o=5&pid=1.7" class="b-block w-50" alt="...">
+            <img src="https://th.bing.com/th/id/OIP.JuEjW4F3gyvZWMuUnReP8gHaEK?w=284&h=180&c=7&r=0&o=5&pid=1.7" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="https://th.bing.com/th/id/OIP.qeW5RCRcMVhl7qE_2Zm7EQHaEK?w=284&h=180&c=7&r=0&o=5&pid=1.7" class="d-block w-50" alt="...">
+            <img src="https://th.bing.com/th/id/OIP.qeW5RCRcMVhl7qE_2Zm7EQHaEK?w=284&h=180&c=7&r=0&o=5&pid=1.7" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="https://th.bing.com/th/id/OIP.Aa_igYWQcwfcNpW0c5dl4wHaEK?w=284&h=180&c=7&r=0&o=5&pid=1.7" class="d-block w-50" alt="...">
+            <img src="https://th.bing.com/th/id/OIP.Aa_igYWQcwfcNpW0c5dl4wHaEK?w=284&h=180&c=7&r=0&o=5&pid=1.7" class="d-block w-100" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -74,6 +81,29 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+
+      <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+      
   </body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </html>
